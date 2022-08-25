@@ -1,0 +1,12 @@
+.nav-item a.nav-link{
+  font-weight: 600;
+  font-size: 20px;
+} 
+
+ul li a :hover{
+  border-radius: 10px;
+  background-color: rgb(116, 116, 116);
+}
+.nav-link{
+  color: rgb(196, 14, 14);
+}
