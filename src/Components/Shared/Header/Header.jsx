@@ -1,15 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import navLogo from "../../../Assets/img/Logo_Final_Wide.png";
-import "./Header.module.css";
+import './Header.css';
 
 const Header = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-light" style={{p:''}}>
+      <nav class="navbar navbar-expand-lg bg-light" style={{ p: '' }}>
         <div class="container-fluid container">
-          <a class="navbar-brand" href="#" style={{fontweight:'700'}} >
-            <img className="me-2" src={navLogo} alt="" width="auto" height="60" style={{}}/>
+          <a class="navbar-brand" href="#" style={{ fontweight: '700' }} >
+            <img className="me-2" src={navLogo} alt="" width="auto" height="60" style={{}} />
             {/* QUIZ */}
           </a>
           <button
@@ -41,7 +41,7 @@ const Header = () => {
 
                 <li class="nav-item">
                   <a>
-                    <NavLink className="nav-link" to="/products">
+                    <NavLink className="nav-link" to="/Quiz">
                       {" "}
                       Quiz
                     </NavLink>
@@ -52,6 +52,14 @@ const Header = () => {
                     <NavLink className="nav-link" to="/Contactus">
                       {" "}
                       Contact us
+                    </NavLink>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a>
+                    <NavLink className="nav-link" to="/Signin">
+                      {" "}
+                      SignIn
                     </NavLink>
                   </a>
                 </li>

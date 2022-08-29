@@ -1,0 +1,21 @@
+.nav-item a.nav-link{
+  font-weight: 600;
+  font-size: 20px;
+} 
+.nav-item a.nav-link:hover{
+  color: #E60B28;
+  transition: none;
+}
+ul li a{
+  border-bottom: 4px solid #00000000;
+}
+ul li a :hover{
+  border-bottom: 4px solid #E60B28;
+  color: #E60B28;
+}
+.nav-link{
+  color: rgb(0, 0, 0);
+}
+.navbar-nav .nav-link.active{
+  color: #E60B28;
+}

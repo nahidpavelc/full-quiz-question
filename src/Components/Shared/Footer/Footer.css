@@ -1,0 +1,55 @@
+.fo-head{
+  border-bottom: 4px solid white;
+  border-radius: 1px;
+  width: 50%;
+  margin-top: 5px;
+}
+.fo-head:hover{
+  border-bottom: 4px solid #E60B28;
+  width: 70%;
+  transition-duration: 2s;
+  transition-delay: s;
+}
+
+/* social Icon  */
+.li-st{
+  list-style: none;
+}
+/* btn-1 */
+.li-st .fo-button1{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 4px 12px;
+}
+.li-st .fo-button1:hover{
+    border:2px solid #0755BD;
+    color: #0755BD;
+    transition-duration: .5s;
+}
+/* btn-2 */
+.li-st .fo-button1{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.li-st .fo-button1:hover{
+    border:2px solid #1C9AEF;
+    color: #1C9AEF;
+    transition-duration: .5s;
+}
+/* btn-3 */
+.li-st .fo-button1{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.li-st .fo-button1:hover{
+    border:2px solid #0077B5;
+    color: #0077B5;
+    transition-duration: .5s;
+}
