@@ -37,7 +37,7 @@ const Footer = () => {
 
                   {/* <!-- Linkedin --> */}
                   <li className='li-st'><a type="button" class="fo-button1 btn btn-floating btn-warning btn-lg ms-1"><i class="fa-brands fa-linkedin"></i></a></li>
-                  
+
 
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Footer = () => {
 
           {/* <!-- Copyright --> */}
           <div class="text-center p-3" style={{ backgroundColor: ' rgba(0, 0, 0, 0.2)' }}>
-            © 2020 |
+            © 2022 |
             <a class="text-white" style={{ textDecoration: 'none' }} href="http://hrsoftbd.com/"> hrsoftbd.com</a>
           </div>
           {/* <!-- Copyright --> */}

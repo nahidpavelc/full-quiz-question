@@ -1,14 +1,15 @@
+import { Button } from 'bootstrap';
 import React from 'react';
+import { ProgressBar } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+import './Home.css';
+
 
 const Home = () => {
-  <Helmet>
-    <script src="/path/to/resource.js" type="text/javascript" />
-  </Helmet>
 
   return (
     <div className='' style={{ height: '700px' }}>
-      <h1>Home</h1>
+      
     </div>
   );
 };
