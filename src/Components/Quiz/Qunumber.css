@@ -1,18 +1,10 @@
-.checkbox {
-  border: 1px solid red;
-  width: 16px;
-  height: 16px;
-  background: #000;
-}
-input {
-  background: #000;
-}
+
 
 .containerq {
   text-align: left;
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding-left: 30px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
@@ -23,7 +15,7 @@ input {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.containerq input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -40,17 +32,17 @@ input {
   height: 25px;
   width: 25px;
   background-color: #eee;
-  border: 1px solid rgba(255, 0, 0, 0.521);
+  border: 1px solid rgba(7, 7, 7, 0.521);
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input ~ .checkmark {
+.containerq:hover input ~ .checkmark {
   /* background-color: rgb(197, 197, 197); */
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked ~ .checkmark {
-  background-color: #f34121;
+.containerq input:checked ~ .checkmark {
+  background-color: #000000;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -61,12 +53,12 @@ input {
 }
 
 /* Show the checkmark when checked */
-.container input:checked ~ .checkmark:after {
+.containerq input:checked ~ .checkmark:after {
   display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.containerq .checkmark:after {
   left: 8px;
   top: 5px;
   width: 8px;
@@ -76,4 +68,7 @@ input {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+.cardq{
+  border: none;
 }

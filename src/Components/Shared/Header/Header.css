@@ -1,21 +1,23 @@
-.nav-item a.nav-link{
+.nav-item a.nav-link {
   font-weight: 600;
   font-size: 20px;
-} 
-.nav-item a.nav-link:hover{
-  color: #E60B28;
-  transition: none;
 }
-ul li a{
+.nav-item a.nav-link:hover {
+  color: #000000;
+  transition: all ease;
+  left: 0;
+}
+ul li a {
   border-bottom: 4px solid #00000000;
 }
-ul li a :hover{
-  border-bottom: 4px solid #E60B28;
-  color: #E60B28;
+ul li a :hover {
+  border-bottom: 4px solid #000000;
+  color: #e60b28;
 }
-.nav-link{
+.nav-link {
   color: rgb(0, 0, 0);
 }
-.navbar-nav .nav-link.active{
-  color: #E60B28;
+.navbar-nav .nav-link.active {
+  color: #e60b28;
+  border-bottom: 4px solid #e60b28;
 }
