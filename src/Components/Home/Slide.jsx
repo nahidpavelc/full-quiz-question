@@ -17,7 +17,7 @@ const Slide = () => {
         <>
           <Swiper
             loop={true}
-            // autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 3000 }}
             effect={"fade"}
             navigation={true}
             pagination={{
