@@ -4,10 +4,10 @@ import Home from './Pages/Home';
 import Header from './Components/Shared/Header/Header';
 import Footer from './Components/Shared/Footer/Footer';
 import Quiz from './Components/Quiz/Quiz';
-import Signin from './Pages/Signin';
-import Signup from './Pages/Signup';
 import Contactus from './Pages/Contactus';
 import Subjects from './Pages/Subjects';
+import SignIn from './Components/Shared/SignIn/SignIn';
+import Signup from './Components/Shared/SignUp/Signup';
 
 
 
@@ -21,7 +21,7 @@ function App() {
           <Route exact path="/Home" element={<Home />} />
           <Route path="/subjects" element={<Subjects />} />
           <Route exact path="/Contactus" element={<Contactus />} />
-          <Route exact path="/signin" element={<Signin />} />
+          <Route exact path="/signin" element={<SignIn />} />
           <Route exact path="/signup" element={<Signup />} />
 
           <Route exact path="/Quiz" element={<Quiz/>}/>

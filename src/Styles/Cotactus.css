@@ -12,3 +12,13 @@
   margin: auto;
   
 }
+.card_info-inner {
+  border-radius: 4px;
+  box-shadow: 0 30px 50px 0rgba(1,11,60,.1);
+  padding: 45px 70px 45px 40px;
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

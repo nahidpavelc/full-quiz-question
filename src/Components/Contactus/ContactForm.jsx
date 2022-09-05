@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div>
       <section>
-        <div className='py-4 text-start'>
+        <div className='pb-4 text-start'>
           <h1>Get In Touch</h1>
           <p>Have a question or just want to say hi? We'd love to hear from you.</p>
         </div>
