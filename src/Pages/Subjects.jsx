@@ -1,12 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Link, NavLink, Route, Routes, Redirect, Switch, Router, Outlet } from 'react-router-dom';
 import Header from '../Components/Shared/Header/Header';
-import Arts from '../Components/Subjects/Arts';
-import Commerce from '../Components/Subjects/Commerce';
-import Science from '../Components/Subjects/Science';
+import Subs from '../Components/Subjects/Subs';
+
+
 
 const Subjects = () => {
   return (
+    <>
+      <Subs/>
+    </>
     // <div >
     //   <div class="btn-group btn-group-lg p-4" role="group" aria-label="Large button group">
     //     <button type="button" class="btn btn-outline-dark"><a>
@@ -61,15 +64,6 @@ const Subjects = () => {
     //     </div>
     //   </div>
     // </div >
-    <>
-      <h1>React Router</h1>
-      <div className="courses-nav">
-        <Link to="/subjects/arts"> Arts </Link >
-        <Link to="/subjects/commerce"> Commerce </Link >
-        <Link to="/subjects/science"> Science </Link >
-      </div>
-      <Outlet/>
-    </>
   );
 };
 

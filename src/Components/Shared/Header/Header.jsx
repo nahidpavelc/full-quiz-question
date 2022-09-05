@@ -5,7 +5,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <>
+    <div className="">
       <nav class="navbar navbar-expand-lg bg-light" style={{ p: '' }}>
         <div class="container-fluid container">
           <a class="navbar-brand" href="#" style={{ fontweight: '700' }} >
@@ -68,7 +68,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

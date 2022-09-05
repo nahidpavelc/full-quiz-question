@@ -4,20 +4,16 @@ import '../Styles/Home.css';
 import Slide from '../Components/Home/Slide';
 import Subjects from './Subjects';
 import { Link, Outlet } from 'react-router-dom';
+import Subs from '../Components/Subjects/Subs';
 
 
 const Home = () => {
 
   return (
     <>
-      <div className='' style={{ height: '700px' }}>
+      <div className='' style={{ height: 'auto' }}>
         <Slide />
-        <div className="courses-nav">
-          <Link to="/Home/arts"> Arts </Link >
-          <Link to="/Home/commerce"> Commerce </Link >
-          <Link to="/Home/science"> Science </Link >
-        </div>
-        <Outlet />
+        <Subs/>
       </div>
     </>
   );

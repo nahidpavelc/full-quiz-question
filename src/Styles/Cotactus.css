@@ -1,0 +1,14 @@
+.hosting-bg{
+  background-image: url(http://hrsoftbd.com/front_end_assets/images/page-bg1.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0;
+  height: 100px;
+}
+.con-txt{
+  color: white;
+  align-items: center;
+  margin: auto;
+  
+}

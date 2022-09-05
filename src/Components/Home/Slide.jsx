@@ -31,7 +31,7 @@ const Slide = () => {
                   <h1 className='Slide-txt'>Your Online Quiz</h1>
                   {/* <p style={{width:'370px', }}>Lorem ipsum, dolor sit amet consectetur.</p> */}
                   <a>
-                    <NavLink className="nav-link" to="/Quiz">
+                    <NavLink className="nav-link" to="/Subjects">
                       {" "}
                       <button type="button" class="btn btn-success">Start</button>
                     </NavLink>
@@ -44,7 +44,7 @@ const Slide = () => {
                 <div>
                   <h1 className='Slide-txt'>Your Online Quiz</h1>
                   <a>
-                    <NavLink className="nav-link" to="/Quiz">
+                    <NavLink className="nav-link" to="/Subjects">
                       {" "}
                       <button type="button" class="btn btn-success">Start</button>
                     </NavLink>
@@ -57,7 +57,7 @@ const Slide = () => {
                 <div>
                   <h1 className='Slide-txt'>Your Online Quiz</h1>
                   <a>
-                    <NavLink className="nav-link" to="/Quiz">
+                    <NavLink className="nav-link" to="/Subjects">
                       {" "}
                       <button type="button" class="btn btn-success">Start</button>
                     </NavLink>
