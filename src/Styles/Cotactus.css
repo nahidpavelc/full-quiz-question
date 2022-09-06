@@ -1,4 +1,4 @@
-.hosting-bg{
+.hosting-bg {
   background-image: url(http://hrsoftbd.com/front_end_assets/images/page-bg1.jpg);
   background-position: center center;
   background-size: cover;
@@ -6,19 +6,32 @@
   padding: 0 0;
   height: 100px;
 }
-.con-txt{
+.con-txt {
   color: white;
   align-items: center;
   margin: auto;
-  
 }
 .card_info-inner {
   border-radius: 4px;
-  box-shadow: 0 30px 50px 0rgba(1,11,60,.1);
+  box-shadow: 0 30px 50px 0rgba (1, 11, 60, 0.1);
   padding: 45px 70px 45px 40px;
   position: relative;
   z-index: 1;
   font-size: 16px;
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cont-card {
+  text-decoration: none;
+  color: black;
+}
+.cont-card-txt {
+  margin-bottom: 6px;
+  font-size: 20px;
+  color: #0e1133;
+  font-family: Hind, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  transition: all 0.3s ease-out 0s;
 }
