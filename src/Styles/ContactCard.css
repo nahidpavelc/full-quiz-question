@@ -1,0 +1,38 @@
+.fa-face-smile {
+  font-size: 40px;
+}
+.card-cont {
+  padding: 50px 80px;
+  text-align: center;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card-cont:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-cont-img:hover {
+  position: relative;
+  transform: rotate(180deg);
+
+}
+.card-cont-img {
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
+  /* bottom: 20px; */
+  transition: bottom 2s, transform 1s;
+}
+.card-cont-btn {
+  border: 2px solid rgb(215, 217, 227);
+  border-radius: 5px;
+  color: black;
+  padding: 10px 25px;
+  background-color: none !important;
+  --bs-btn-bg: none;
+}
+.card-title-cont {
+  font-size: 26px;
+  margin-bottom: 8px;
+}

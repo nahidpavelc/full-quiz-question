@@ -1,5 +1,6 @@
 import { data } from 'jquery';
 import React, { useEffect, useState } from 'react';
+import Topbar from '../Shared/Topbar/Topbar';
 import './Subs.css';
 import SubsCart from './SubsCart';
 
@@ -25,10 +26,10 @@ const Subs = () => {
           </div>
         </div>
       </div>
-
+      {/* {Subjects.length == 0 ? {}:{}} */}
       <section className="container" id="services">
-        
-        <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+      <Topbar/>
+        <div class="row row-cols-1 row-cols-md-3 g-4 px-5 py-3">
 
           {
             Subjects.map(Subject =>
